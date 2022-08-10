@@ -4,3 +4,5 @@ const _ = require("lodash");
 const items = [1, [2, [3, [4]]]];
 const flattenedItems = _.flattenDeep(items);
 console.log(flattenedItems);
+// testing nodemon
+console.log("hello people");
